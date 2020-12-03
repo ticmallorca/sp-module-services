@@ -1,0 +1,68 @@
+{
+	"module": "ticmServices",
+	"author": {
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	},
+	"contributors": [{
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	}],
+	"version": "v1.0.0",
+	"sidebar_title": "Serveis TIC Mallorca",
+	"sidebar_titleTraining": "Formació",
+	"sidebar_titleMunicipalManagement": "Gestión Municipal",
+	"sidebar_titleSCM": "SCM",
+	"sidebar_titleMapping": "Cartografia",
+	"sidebar_titleWeb": "Web",
+	"panel_title": "Serveis TIC Mallorca",
+
+
+	"links_title": "Enllaços d'interès",
+	"links_description": "",
+	"faq": "FAQ",
+	"faq_description": "Les preguntes més freqüents són aquí.",
+	"faq_no_answer_title": "¿No hem pogut respondre els seus dubtes?",
+	"faq_no_answer_description": "Cap problema. Pots posar-te en contacte amb nosaltres mitjançant el 'Centre de Suport'.",
+	"documentation_title": "Documentació",
+	"documentation_description": "Documentació",
+	"documentation_documents": "Navega por els documents",
+	"category_legislation": "Legislació",
+	"category_security": "Guies de seguretat",
+	"category_manual": "Manuals de configuració",
+
+
+
+	"mapping_panel_links_1": "Guia Urbana",
+	"mapping_panel_links_2": "IDELMA, infraestructura de dades espacials de TIC Mallorca",
+	"mapping_panel_links_3": "EIEL, enquesta d'infraestructures i equipaments locals",
+	"mapping_panel_links_4": "SITMUN",
+
+	"scm_panel_links_1": "Suport remot",
+	"scm_panel_links_2": "Certificats de viatge",
+	"scm_panel_links_3": "Correu electrònic",
+	"scm_panel_links_4": "Gestió d'usuaris",
+
+	"web_panel_links_1": "Asociación española de DRUPAL (AED)",
+	"web_panel_links_2": "Comunidad DRUPAL",
+	"web_panel_links_3": "Plataforma de Contratación del Sector Público",
+	"web_panel_links_4": "Observatorio de Accesibilidad Web",
+	"web_panel_links_5": "Comunidad de accesibilidad",
+
+	"scm_documentation_category_legislation_doc1": "Reglament UE 2016-679 DOUE [RGPD]",
+	"scm_documentation_category_legislation_doc2": "RD 951-2015 Esquema Nacional de Seguretat [BOE-A-2015-11881]",
+	"scm_documentation_category_legislation_doc3": "RD 14-2019 Mesures urgents per raons de seguretat pública [BOE-A-2019-15790]",
+	"scm_documentation_category_manual_doc1": "Manual de configuració del correu electrònic Zimbra al mòbil (android)",
+	"scm_documentation_category_manual_doc2": "Manual de configuració del correu electrònic Zimbra al mòbil (iOS)",
+	"scm_documentation_category_security_guides_doc1": "Esquema Nacional de Seguridad con Microsoft",
+	"scm_documentation_category_security_guides_doc2": "FEMP Datos abiertos -40 conjuntos de datos a publicar-",
+	"scm_documentation_category_security_guides_doc3": "FEMP Guía estratégica en Seguridad TOMO I",
+	"scm_documentation_category_security_guides_doc4": "FEMP Guía estratégica en Seguridad TOMO II",
+	"scm_documentation_category_security_guides_doc5": "Guia AEPD Protección de Datos y Administración Local",
+
+	"web_documentation_category_schema": "Esquema del Portal de Transparència",
+	"web_documentation_category_schema_doc1": "Llei 19/2013, de 9 de desembre, de transparència, accés a la informació i bon govern",
+	"web_documentation_category_schema_doc2": "REAL DECRETO 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público",
+	"web_documentation_category_schema_doc3": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público"
+
+}

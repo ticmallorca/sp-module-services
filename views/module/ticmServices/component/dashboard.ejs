@@ -1,0 +1,88 @@
+<div class="row">
+	<div class="col-lg-3">
+		<div class="card">
+			<div class="card-body text-center">
+				<i
+					class="icon-book icon-2x text-success-400 border-success-400 border-3 rounded-round p-3 mb-3 mt-1"></i>
+				<h5 class="card-title"><%= module.ticmSupport.language[page.lang].widget_education %></h5>
+				<p class="mb-3"><%= module.ticmSupport.language[page.lang].widget_educationDescription %></p>
+				<a href="https://formacio.ticmallorca.net" class="btn bg-success-400"
+					target="_blank"><%= module.ticmSupport.language[page.lang].widget_widget_educationButton %></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-3">
+		<div class="card">
+			<div class="card-body text-center">
+				<i class="icon-reading icon-2x text-blue border-blue border-3 rounded-round p-3 mb-3 mt-1"></i>
+				<h5 class="card-title"><%= module.ticmSupport.language[page.lang].widget_articlesNews %></h5>
+				<p class="mb-3"><%= module.ticmSupport.language[page.lang].widget_articlesNewsDescription %></p>
+				<a href="http://ticmallorca.net/taulell" class="btn bg-blue"
+					target="_blank"><%= module.ticmSupport.language[page.lang].widget_articlesNewsButton %></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-3">
+		<div class="card">
+			<div class="card-body text-center">
+				<i
+					class="icon-lifebuoy icon-2x text-warning-400 border-warning-400 border-3 rounded-round p-3 mb-3 mt-1"></i>
+				<h5 class="card-title"><%= module.ticmSupport.language[page.lang].widget_supportCenter %></h5>
+				<p class="mb-3"><%= module.ticmSupport.language[page.lang].widget_supportCenterDescription %></p>
+				<a href="#" data-toggle="modal" data-target="#modal_default"
+					class="btn bg-warning-400"><%= module.ticmSupport.language[page.lang].widget_supportCenterButton %></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="modal_default" class="modal fade" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Crear incidencia</h5>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<div class="modal-body">
+				<form action="#">
+					<div class="form-group row">
+						<label class="col-lg-3 col-form-label">Departament:</label>
+						<div class="col-lg-9">
+
+							<select id="ticmSupport_categoryField" data-placeholder="Category"
+								class="form-control form-control-select2" data-fouc>
+								<option></option>
+								<% for (var i in module.ticmSupport.settings.categories) { %>
+								<option value="<%= module.ticmSupport.settings.categories[i].id%>">
+									<%= module.ticmSupport.settings.categories[i].name%>
+								</option>
+								<% } %>
+							</select>
+
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label class="col-lg-3 col-form-label">Descripció:</label>
+						<div class="col-lg-9">
+							<textarea id="ticmSupport_descriptionField" rows="10" cols="5" class="form-control"
+								placeholder="Descriu la teva incidència"></textarea>
+						</div>
+					</div>
+
+					<div class="text-right">
+						<button id="ticmSupport_ButtonForm" type="submit" class="btn btn-primary"
+							data-dismiss="modal">Enviar <i class="icon-paperplane ml-2"></i></button>
+					</div>
+				</form>
+
+
+			</div>
+
+		</div>
+	</div>
+</div>

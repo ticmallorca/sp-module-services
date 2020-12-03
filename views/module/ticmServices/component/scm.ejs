@@ -1,0 +1,153 @@
+<div class="content">
+	<div class="d-flex align-items-start flex-column flex-md-row">
+
+		<!-- Left content -->
+		<div class="tab-content w-100 order-2 order-md-1">
+			<!-- Questions title -->
+			<div class="text-center mb-3 py-2">
+				<h4 class="font-weight-semibold mb-1">
+					<%= module.ticmServices.language[page.lang].links_title%></h4>
+				<span
+					class="text-muted d-block"><%= module.ticmServices.language[page.lang].links_description%></span>
+			</div>
+			<!-- /questions title -->
+			<div class="mb-3">
+				<div class="row row-tile no-gutters">
+					<div class="col-6">
+						<a href="https://get.teamviewer.com/y8ef7r2" target="_blank" role="button"
+							class="btn btn-light btn-block btn-float m-0">
+							<i><img src="/module/ticmServices/image/scm/teamviewer.png" width="48" height="48"
+									alt=""></i>
+							<span><%= module.ticmServices.language[page.lang].scm_panel_links_1%></span>
+						</a>
+
+						<a href="http://directori.ticmallorca.net/adm/" target="_blank" role="button"
+							class="btn btn-light btn-block btn-float m-0">
+							<i class="icon-airplane3 icon-3x text-blue-800" width="60" height="60"></i>
+							<span><%= module.ticmServices.language[page.lang].scm_panel_links_2%></span>
+						</a>
+					</div>
+
+					<div class="col-6">
+						<a href="https://webmail.ticmallorca.net/" target="_blank" role="button"
+							class="btn btn-light btn-block btn-float m-0">
+							<i class="icon-mail5 icon-3x text-blue-800 " width="60" height="60"></i>
+							<span><%= module.ticmServices.language[page.lang].scm_panel_links_3%></span>
+						</a>
+						<a href="http://www.ticmallorca.net/content/gestio-dusuaris" target="_blank" role="button"
+							class="btn btn-light btn-block btn-float m-0">
+							<i class="icon-user-check icon-3x text-blue-800" width="60" height="60"></i>
+							<span><%= module.ticmServices.language[page.lang].scm_panel_links_4%></span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade active show" id="activity">
+
+					<!-- Questions title -->
+					<div class="text-center mb-3 py-2">
+						<h4 class="font-weight-semibold mb-1">
+							<%= module.ticmServices.language[page.lang].faq%></h4>
+						<span
+							class="text-muted d-block"><%= module.ticmServices.language[page.lang].faq_description%></span>
+					</div>
+					<!-- /questions title -->
+
+
+					<!-- Inner container -->
+					<div class="d-flex align-items-start flex-column flex-md-row">
+
+
+						<div class="w-100 overflow-auto order-2 order-md-1">
+
+							<!-- Questions list -->
+
+							<!-- <div class="font-size-sm text-uppercase font-weight-semibold text-muted pt-2 mb-2">Selling and
+								buying</div> -->
+							<div id="accordion-group1">
+
+							</div>
+
+							<div class="card card-body">
+								<div class="media align-items-center align-items-md-start flex-column flex-md-row">
+
+									<div class="media-body text-center text-md-left">
+										<h6 class="media-title font-weight-semibold"><i
+												class="icon-help mr-2 text-slate"></i>
+												<%= module.ticmServices.language[page.lang].faq_no_answer_title%></h6>
+											<%= module.ticmServices.language[page.lang].faq_no_answer_description%>
+									</div>
+								</div>
+							</div>
+
+							<!-- /questions list -->
+
+						</div>
+
+
+					</div>
+					<!-- /inner container -->
+				</div>
+
+		</div>
+		<!-- /left content -->
+				<!-- Right sidebar component -->
+				<div
+				class="sidebar sidebar-light bg-transparent sidebar-component sidebar-component-right wmin-300 border-0 shadow-0 order-1 order-lg-2 sidebar-expand-md">
+
+
+				<div class="sidebar-content">
+
+					<div class="card">
+						<div class="card-header bg-transparent header-elements-inline">
+							<h6 class="card-title font-weight-semibold">
+								<i class="icon-folder6 mr-2"></i>
+								<%= module.ticmServices.language[page.lang].documentation_title%>
+							</h6>
+							<div class="header-elements">
+								<div class="list-icons">
+									<a class="list-icons-item" data-action="collapse"></a>
+								</div>
+							</div>
+
+						</div>
+						<div class="card-body border-0 p-0">
+							<ul class="nav nav-sidebar mb-2">
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link" target="_blank"> <%= module.ticmServices.language[page.lang].category_legislation%></a>
+									<ul class="nav nav-group-sub" style="display: none;">
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/Reglament UE 2016-679 DOUE [RGPD].pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_legislation_doc1%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/RD 951-2015 Esquema Nacional de Seguretat [BOE-A-2015-11881].pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_legislation_doc2%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/RD 14-2019 Mesures urgents per raons de seguretat pública [BOE-A-2019-15790].pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_legislation_doc3%></a></li>
+									</ul>
+								</li>
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link" target="_blank"> <%= module.ticmServices.language[page.lang].category_manual%></a>
+									<ul class="nav nav-group-sub">
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/Manual de configuració del correu electrònic Zimbra al mòbil (android).pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_manual_doc1%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/Manual de configuració del correu electrònic Zimbra al mòbil (iOS).pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_manual_doc2%></a></li>
+									</ul>
+								</li>
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link" target="_blank"> <%= module.ticmServices.language[page.lang].category_security%></a>
+									<ul class="nav nav-group-sub">
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/Esquema Nacional de Seguridad con Microsoft.pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_security_guides_doc1%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/FEMP Datos abiertos -40 conjuntos de datos a publicar-.pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_security_guides_doc2%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/FEMP Guía estratégica en Seguridad TOMO I.pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_security_guides_doc3%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/FEMP Guía estratégica en Seguridad TOMO II.pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_security_guides_doc4%></a></li>
+										<li class="nav-item"><a href="/module/ticmServices/data/scm/Guia AEPD Protección de Datos y Administración Local.pdf" class="nav-link" target="_blank"><i class="icon-file-pdf"></i><%= module.ticmServices.language[page.lang].scm_documentation_category_security_guides_doc5%></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<!-- /sidebar content -->
+
+			</div>
+			<!-- /right sidebar component -->
+
+	</div>
+</div>

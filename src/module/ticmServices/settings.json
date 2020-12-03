@@ -1,0 +1,107 @@
+{
+	"name": "ticmServices",
+	"version": "1.0.0",
+	"link": "/",
+	"settings": {
+		"section": {
+			"scm": {
+				"name": "SCM",
+				"description": ""
+			},
+			"training": {},
+			"municipal-management": {},
+			"mapping": {},
+			"web": {}
+		}
+	},
+	"assets": {},
+	"language": {
+		"en": {},
+		"ca": {},
+		"es": {}
+	},
+	"component": {
+		"sideBar": {
+			"name": "sideBar",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		},
+		"training": {
+			"name": "training",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		},
+		"municipal-management": {
+			"name": "municipal-management",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		},
+		"scm": {
+			"name": "scm",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		},
+		"mapping-info": {
+			"name": "mapping-info",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		},
+		"mapping-eiel-management": {
+			"name": "mapping-eiel-management",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": [
+					"/resources/js/plugins/tables/datatables/datatables.min.js",
+					"/resources/js/plugins/tables/datatables/extensions/buttons.min.js",
+					"/resources/js/plugins/tables/datatables/extensions/responsive.min.js",
+					"/resources/js/plugins/notifications/bootbox.min.js",
+					"/resources/js/plugins/forms/selects/select2.min.js",
+					"/resources/js/plugins/forms/inputs/duallistbox/duallistbox.min.js",
+					"/resources/js/plugins/media/fancybox.min.js",
+					"/resources/js/plugins/forms/styling/uniform.min.js",
+					"/resources/js/plugins/notifications/sweet_alert.min.js",
+					"/resources/js/plugins/uploaders/fileinput/plugins/purify.min.js",
+					"/resources/js/plugins/uploaders/fileinput/plugins/sortable.min.js",
+					"/resources/js/plugins/uploaders/fileinput/fileinput.min.js",
+
+					"/js/tools/moment/moment.min.js",
+					"/js/tools/moment/moment-with-locales.min.js",
+					"/js/tools/moment/moment-locale-es.js",
+
+					"/module/ticmServices/js/mapping-eiel-management/fileUpload.js",
+					"/module/ticmServices/js/mapping-eiel-management/view.js",
+					"/module/ticmServices/js/mapping-eiel-management/controller.js",
+					"/module/ticmServices/js/mapping-eiel-management/mapping.js"
+				]
+			}
+		},
+		"web": {
+			"name": "web",
+			"link": "/",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		}
+	},
+	"dependencies": {
+		"css": [],
+		"javascript": []
+	}
+}

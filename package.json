@@ -1,0 +1,24 @@
+{
+  "name": "sp-module-services",
+  "version": "1.0.0",
+  "description": "TicMallorca Services Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ticmallorca/sp-module-services.git"
+  },
+  "keywords": [
+    "Services",
+    "Service",
+    "Platform"
+  ],
+  "author": "Alejandro Villen Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ticmallorca/sp-module-services/issues"
+  },
+  "homepage": "https://github.com/ticmallorca/sp-module-services#readme"
+}

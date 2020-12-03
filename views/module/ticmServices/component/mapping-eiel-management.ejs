@@ -1,0 +1,102 @@
+<!-- Dashboard content -->
+
+<!-- Bootstrap file input -->
+<div class="card border-top-slate rounded-top-0">
+	<div class="card-header header-elements-inline">
+		<h5 class="panel-title">Pujar nous fitxers</h5>
+		<div class="header-elements">
+			<div class="list-icons">
+				<a class="list-icons-item" data-action="collapse"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="card-body">
+		<p class="mb-3">Amb aquest util·litat pot pujar nous fitxers a la biblioteca.</p>
+
+		<form action="#">
+
+
+			<div class="form-group row">
+				<label class="col-lg-1 col-form-label">Títol:</label>
+				<div class="col-lg-11">
+					<div class="input-group">
+						<input type="text" name="title" class="form-control" placeholder="Introdueix el títol">
+					</div>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-lg-1 col-form-label ">Descripció:</label>
+				<div class="col-lg-11">
+					<div class="input-group">
+						<input type="text" name="description"  class="form-control" placeholder="Afageix una descripció">
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="form-group row">
+				<label class="col-lg-1 col-form-label ">Fitxers:</label>
+				<div class="col-lg-11">
+					<input type="file" id="fileForm" class="form-control-uniform" data-fouc>
+				</div>
+			</div>
+			<!-- <div class="form-group row">
+				<label class="col-lg-1 col-form-label ">Fitxers:</label>
+				<div class="col-lg-11">
+					<input type="file" id="filesForm" class="file-input-ajax" multiple="multiple"
+						data-browse-class="btn btn-primary bg-slate btn-block" data-show-remove="false"
+						data-show-upload="false" data-show-caption="false" data-fouc>
+				</div>
+			</div> -->
+			<legend></legend>
+			<div class="bg-white d-flex justify-content-between align-items-center">
+				<div class="text-danger"></div>
+				<button type="button" id="uploadFileForm" class="btn btn-primary bg-slate"><i class="icon-upload"></i> Enviar</button>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /bootstrap file input -->
+
+<div class="card border-top-slate rounded-top-0">
+	<div class="card-header header-elements-inline">
+		<h5 class="card-title">
+			<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableTitle%></h5>
+	</div>
+	<div class="card-body">
+		<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableDescription%>
+	</div>
+	<div id="dataTableContent">
+		<table class="table datatable-basic table-striped">
+			<thead>
+				<tr>
+					<th class="text-center">
+						<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableColumnAction%>
+					</th>
+					<th class="text-center">
+						<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableColumnTitle%>
+					</th>
+					<th class="text-center">
+						<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableColumnDescription%>
+					</th>
+					<th class="text-center">
+						<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableColumnFile%>
+					</th>
+					<th class="text-center">
+						<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableColumnCreated%>
+					</th>
+					<th class="text-center">
+						<%= module.ticmServices.language[page.lang].mapping_eiel_management_tableColumnStatus%>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+<!-- /dashboard content -->
